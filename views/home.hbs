@@ -7,7 +7,9 @@
 <body>
 {{>header}}
 <p>{{ScreamIt welcomeMessage}}</p>
-
+{{#if isHome}}
+    <h1>WELCOME HOME</h1>
+{{/if}}
 {{> footer}}
 </body>
 </html>
