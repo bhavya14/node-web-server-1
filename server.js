@@ -39,6 +39,7 @@ app.get('/' , (req,res) => {
     res.render('home.hbs',{
         pageTitle : 'Home Page 123',
         welcomeMessage:'Welcome to the website',
+        isHome : true ,
        // currentYear : new Date().getFullYear()
     });
 });
